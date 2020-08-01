@@ -14,7 +14,7 @@ class App extends Component {
 
 	componentWillMount() {
 		axios
-			.get('http://localhost:3000/get_tracker_data/')
+			.get('https://corona-tracker-gitesh.herokuapp.com/get_tracker_data/')
 			.then((response) => {
 				this.setState({
 					states_data: response.data.slice(0, response.data.length - 2),

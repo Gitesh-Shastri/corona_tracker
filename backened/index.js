@@ -72,7 +72,7 @@ router.get('/get_tracker_data', async (ctx) => {
 	data = await readFile();
 	if (data.status == 'failure' || data.data.time_elapse > 90000) {
 		resp_data = await readDataFromNet();
-		ctx.body = resp_data;
+		ctx.body = resp_data.data;
 	} else {
 		ctx.body = data.data.data;
 	}
