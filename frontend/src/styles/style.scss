@@ -1,0 +1,21 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	.heading {
+		text-align: center;
+	}
+	.row {
+		margin: 15px;
+		.card {
+			color: white;
+			margin: 5px;
+			border-radius: 20px;
+			.card-body {
+				border-radius: 20px;
+			}
+		}
+	}
+	.table {
+		border: 1px solid grey;
+	}
+}

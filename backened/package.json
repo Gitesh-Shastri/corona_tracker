@@ -1,0 +1,34 @@
+{
+  "name": "corona_tracker",
+  "version": "1.0.0",
+  "description": "To Track Corona Cases In States With Node js, Koa, React, Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gitesh-Shastri/corona_cases_reader.git"
+  },
+  "keywords": [
+    "corona"
+  ],
+  "author": "Gitesh Shastri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gitesh-Shastri/corona_cases_reader/issues"
+  },
+  "homepage": "https://github.com/Gitesh-Shastri/corona_cases_reader#readme",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-ejs": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^9.1.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "koa-cors": "0.0.16",
+    "nodemon": "^2.0.4"
+  }
+}
