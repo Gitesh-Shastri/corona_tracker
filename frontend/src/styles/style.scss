@@ -8,14 +8,47 @@
 		margin: 15px;
 		.card {
 			color: white;
-			margin: 5px;
+			margin: 2px;
 			border-radius: 20px;
 			.card-body {
 				border-radius: 20px;
+				.card-title {
+					font-size: 1rem;
+					height: 30px;
+				}
 			}
 		}
 	}
 	.table {
+		margin-top: 10px;
 		border: 1px solid grey;
+		width: 100%;
+		overflow-x: scroll;
+		display: block;
+		thead {
+			tr {
+				td {
+					cursor: pointer;
+				}
+			}
+		}
 	}
+}
+.margin_0 {
+	margin: 0;
+}
+.padding_0 {
+	padding: 0;
+}
+.color_grey {
+	color: grey;
+}
+.soring_color {
+	background: #f1f1f1;
+}
+.green {
+	color: #009933;
+}
+.red {
+	color: #ff0000;
 }
